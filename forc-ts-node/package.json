@@ -1,0 +1,17 @@
+{
+    "name": "forc-tsgen",
+    "dependencies": {
+        "@fuel-ts/abi-typegen": "^0.73.0",
+        "commander": "^10.0.1"
+    },
+    "devDependencies": {
+        "@types/node": "^16.11.15",
+        "typescript": "^5.3.3"
+    },
+    "bin": {
+        "forc-tsgen": "forc-tsgen.js"
+    },
+    "scripts": {
+        "build": "tsc"
+    }
+}
