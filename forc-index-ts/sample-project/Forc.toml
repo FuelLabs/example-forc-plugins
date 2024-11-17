@@ -1,0 +1,10 @@
+[project]
+authors = ["Z"]
+entry = "main.sw"
+license = "Apache-2.0"
+name = "counter-contract"
+
+[project.metadata.indexing]
+namespace = "counter-contract"
+identifier = "counter-contract"
+schema_path = "out/release/counter-contract-abi.json"
