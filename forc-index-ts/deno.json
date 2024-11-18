@@ -1,0 +1,10 @@
+{
+  "tasks": {
+    "dev": "deno run --allow-all forc-index.ts --path ./sample-project/Forc.toml",
+    "build": "forc build --path sample-project --release && deno fmt forc-index.ts && deno compile --allow-all forc-index.ts",
+    "clean": "rm -rf forc-index sample-project/out/"
+  },
+  "imports": {
+    "@std/assert": "jsr:@std/assert@1"
+  }
+}
