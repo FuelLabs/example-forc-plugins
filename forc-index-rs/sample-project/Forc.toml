@@ -6,5 +6,4 @@ name = "counter-contract"
 
 [project.metadata.indexing]
 namespace = "counter-contract"
-identifier = "counter-contract"
 schema_path = "out/release/counter-contract-abi.json"
